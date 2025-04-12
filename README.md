@@ -2,6 +2,8 @@
 
 This repository contains my implementation of the **get_next_line** project, developed as part of the 42 School curriculum. The objective of this project is to create a function that reads a line from a file descriptor efficiently, handling various edge cases, dynamic buffers, and supporting multiple file descriptors if necessary. This implementation serves both as an exercise in mastering file handling in C and as a demonstration of my programming capabilities.
 
+> **Note:** This project is strictly for educational purposes. Use of this code in academic submissions or by other students is prohibited by the 42 School regulations.
+
 ## Table of Contents
 
 - [Overview](#overview)
