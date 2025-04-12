@@ -37,6 +37,7 @@ get_next_line/
 
 - **includes/**: Contains header files declaring the `get_next_line` function and any necessary constants or macros.
 - **srcs/**: Contains the implementation of the `get_next_line` function and its helper functions.
+- **srcs_bonus/**: Contains the implementation of the `get_next_line_bonus` function (multiple fd handling) and its helper functions.
 
 ## Installation
 
