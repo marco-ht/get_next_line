@@ -9,7 +9,6 @@ This repository contains my implementation of the **get_next_line** project, dev
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Testing](#testing)
 - [Acknowledgments](#acknowledgments)
 - [Disclaimer](#disclaimer)
 - [License](#license)
@@ -32,36 +31,23 @@ The **get_next_line** project challenges you to build a function that returns th
 get_next_line/
 ├── includes/    # Header files for the get_next_line function
 ├── srcs/        # Source files implementing the function
-├── tests/       # Test files and scripts to validate functionality
-├── Makefile     # Makefile for building the project
+├── srcs_bonus/  # Source files implementing the bonus features (multiple fd handling)
 └── README.md    # This file
 ```
 
 - **includes/**: Contains header files declaring the `get_next_line` function and any necessary constants or macros.
 - **srcs/**: Contains the implementation of the `get_next_line` function and its helper functions.
-- **tests/**: Contains test cases and scripts to ensure the function works as intended.
-- **Makefile**: Automates the build process of the project.
 
 ## Installation
 
 To build the project, follow these steps:
 
-1. **Clone the repository:**
+**Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/get_next_line.git
+   git clone https://github.com/marco-ht/get_next_line.git
    cd get_next_line
    ```
-
-2. **Compile the project:**
-
-   Run the following command in your terminal:
-
-   ```sh
-   make
-   ```
-
-   This command will compile the source files and generate the necessary executable or library files.
 
 ## Usage
 
@@ -102,26 +88,6 @@ You can integrate and use the get_next_line function in your projects as follows
 3. Compiling your project:
 
    Ensure you compile your project with the proper flags and link the required files.
-
-## Testing
-
-The tests/ directory includes sample files and scripts to test the functionality of get_next_line.
-
-1. Navigate to the tests directory:
-
-   ```sh
-   cd tests
-   ```
-
-2. Run the test scripts:
-
-   Execute the provided testing script:
-
-   ```sh
-   ./run_tests.sh
-   ```
-
-   This script will compile and run various test cases to ensure that the function performs correctly under different scenarios.
 
 ## Acknowledgments
 
